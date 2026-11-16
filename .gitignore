@@ -1,0 +1,17 @@
+# Maven build output
+target/
+
+# Secrets and keys
+*.pem
+*.csv
+.env
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
